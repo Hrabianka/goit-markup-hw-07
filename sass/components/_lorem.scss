@@ -1,4 +1,10 @@
-.lorem-ul {
+.lorem {
+  padding-bottom: 0px;
+
+
+
+
+&__ul {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -6,15 +12,12 @@
   margin-bottom: 0px;
 }
 
-.lorem {
-  padding-bottom: 0px;
-}
 
-.lorem-li {
+&__li {
   flex-basis: (calc(100% - 90px))/4;
 }
 
-.lorem-icon {
+&__icon {
   outline: 1px dashed $whiter-color;
   background-color: $whiter-color;
   padding-bottom: 25px;
@@ -23,7 +26,7 @@
   margin-bottom: 30px;
 }
 
-.lorem-h5 {
+&__h5 {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -35,7 +38,7 @@
   margin-bottom: 0px;
 }
 
-.lorem-p {
+&__p {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -43,4 +46,5 @@
   color: $silver-color;
   margin-top: 10px;
   margin-bottom: 0px;
+}
 }
