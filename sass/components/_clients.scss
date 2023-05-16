@@ -1,15 +1,17 @@
-.clients-ul {
-  display: flex;
+.clients{
+  &__ul{
+ display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: space-between;
-}
-.clients-h2 {
-  margin-bottom: 50px;
-}
+  }
 
-.clients-icon {
-  outline: 1px auto $footer-color;
+  &__h2{
+margin-bottom: 50px;
+  }
+
+  &__icon{
+     outline: 1px auto $footer-color;
   fill: $footer-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -21,5 +23,7 @@
   &:focus {
     fill: $blue-color;
     outline-color: $blue-color;
+  }
+
   }
 }
