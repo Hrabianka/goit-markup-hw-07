@@ -1,22 +1,24 @@
-.what-to-do-h2 {
+.what{
+
+&__to-do-h2 {
   font-size: 36px;
   line-height: 1.16;
   margin-bottom: 50px;
 }
 
 
-.what-to-do-ul {
+&__to-do-ul {
   display: flex;
 
   margin: 0px 0px 0px 0px;
 }
 
-.what-to-do-li 
+&__to-do-li 
     {
   margin: 0px 0px 0px 30px;
 }
 
-.what-do-to{
+&__do-to{
     position: relative;
   overflow: hidden;
   height: 294px;
@@ -38,5 +40,6 @@
   line-height: 16px;
   text-align: center;
   letter-spacing: 0.03em;
+}
 }
 }
