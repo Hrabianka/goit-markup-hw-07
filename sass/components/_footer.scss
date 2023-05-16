@@ -1,10 +1,17 @@
-.footer-test-newsletter {
+
+.footer {
+  background: $grey-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+
+&__test-newsletter {
   margin-left: 24px;
   position: absolute;
   right: 28px;
 }
 
-.footer-newsletter-e-mail {
+&__newsletter-e-mail {
   box-sizing: border-box;
   background-color: inherit;
   padding-left: 16px;
@@ -19,7 +26,7 @@
   border-radius: 4px;
 }
 
-.footer-button-newsletter {
+&__button-newsletter {
   color: $white-color;
   position: absolute;
   width: 200px;
@@ -42,7 +49,7 @@
   vertical-align: text-top;
 }
 
-.footer-newsletter {
+&__newsletter {
   font-family: $main-font;
   font-style: normal;
   font-weight: 700;
@@ -54,7 +61,7 @@
   margin-bottom: 20px;
 }
 
-.footer-logo {
+&__logo {
   text-decoration: none;
   color: inherit;
   transition-duration: 250ms;
@@ -73,7 +80,7 @@
   }
 }
 
-.footer-info {
+&__info {
   text-decoration: none;
   color: inherit;
   transition-duration: 250ms;
@@ -88,47 +95,42 @@
   }
 }
 
-.footer-web {
+&__web {
   color: $blue-color;
 }
 
-.footer-address {
+&__address {
   color: $white-color;
   font-size: 14px;
   margin-top: 20px;
 }
 
-.footer {
-  background: $grey-color;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 
-.footer-studio {
+&__studio {
   color: $white-color;
 }
 
-.footer-info {
+&__info {
   color: rgba(255, 255, 255, 0.6);
   padding-inline-start: 0%;
   font-size: 14px;
 }
-.footer-li {
+&__li {
   margin-top: 9px;
 }
 
-.footer-flex {
+&__flex {
   display: flex;
   justify-content: flex-start;
   gap: 70px;
 }
 
-.footer-social-ul {
+&__social-ul {
   display: flex;
   gap: 10px;
 }
 
-.footer-p {
+&__p {
   font-weight: 700;
   line-height: 16px;
   font-size: 14px;
@@ -136,7 +138,7 @@
   margin-bottom: 20px;
 }
 
-.footer-social-icon {
+&__social-icon {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
@@ -149,10 +151,11 @@
   &:focus use {
     fill: $portfolio-div-color;
   }
-  &:hover .footer-circle-social-icon {
+  &:hover .footer__circle-social-icon {
     fill: $blue-color;
   }
-  &:focus .footer-circle-social-icon {
+  &:focus .footer__circle-social-icon {
     fill: $blue-color;
   }
+}
 }
