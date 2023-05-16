@@ -7,7 +7,7 @@
 @import 'components/lorem';
 @import 'components/what-section';
 @import 'components/team';
-
+@import 'components/clients';
 
 body {
   font-family: $main-font, sans-serif;
@@ -38,4 +38,8 @@ h2 {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+label {
+  margin-bottom: 8px;
 }
