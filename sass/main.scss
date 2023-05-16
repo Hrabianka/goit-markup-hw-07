@@ -1,6 +1,11 @@
 @import 'utils/variables';
 @import 'components/header';
 @import 'components/footer';
+@import 'components/portfolio-header';
+@import 'components/portfolio';
+
+
+
 
 body {
   font-family: $main-font, sans-serif;
@@ -26,4 +31,9 @@ h2 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
