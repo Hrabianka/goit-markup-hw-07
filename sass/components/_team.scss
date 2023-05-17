@@ -87,10 +87,10 @@
   &:focus use {
     fill: $portfolio-div-color;
   }
-  &:hover .team-circle-social-icon {
+  &:hover .team__circle-social-icon {
     fill: $blue-color;
   }
-  &:focus .team-circle-social-icon {
+  &:focus .team__circle-social-icon {
     fill: $blue-color;
   }
 }
